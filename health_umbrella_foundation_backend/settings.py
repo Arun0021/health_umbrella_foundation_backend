@@ -166,7 +166,7 @@ USE_TZ = True
 # STATIC_URL = f"https://{AWS_S3_CUSTOM_DOMAIN}/static/"
 # MEDIA_URL = f"https://{AWS_S3_CUSTOM_DOMAIN}/media/"
 
-setting to run application on EC2 without s3
+# setting to run application on EC2 without s3
 STATIC_URL = "/static/"
 STATIC_ROOT = BASE_DIR / "static"
 
